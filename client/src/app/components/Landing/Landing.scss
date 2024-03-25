@@ -1,0 +1,30 @@
+.Landing {
+    height: calc(100vh - 75px);
+    width: 100%;
+    display: grid;
+
+    .Landing__categories {
+        width: 100%;
+        height: 30%;
+        // border: 2px solid red;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        box-shadow: 0px 15px 21px 0px rgba(0,0,0,0.75);
+    }
+}
+
+.Category {
+    // border: 2px solid green;
+    width: 200px;
+    // height: 150px;
+    img {
+        height: 100px;
+        width: 150px;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
